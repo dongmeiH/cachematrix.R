@@ -39,3 +39,11 @@ cacheSolve <- function(x, ...) {
 	x$setinv(inv)
 	inv
 }
+
+# Test of calling the above function
+m <- matrix(c(2, 4, 5, 3, 8, 4, 9, 1, 6), 3, 3)
+# check if m is inversable
+invtest <- det(m)
+print(invtest)
+
+catheSolve(m)
