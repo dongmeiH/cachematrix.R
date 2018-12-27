@@ -2,8 +2,8 @@
 ###### caching  the inverse of a matrix 
 ## <<- is a operator which can be used to assign value to an object in an 
 ## environment that is different from the current
-# makeCacheMatrix creates a special matrix than can cathe its inverse
-# cacheSolve: computes the inverse of the special matrix returned by makeCatheMatrix
+## makeCacheMatrix creates a special matrix than can cathe its inverse
+## cacheSolve: computes the inverse of the special matrix returned by makeCatheMatrix
 #1. set the value of the matrix
 #2. get the value of the matrix
 #3. set the value of the inverse
